@@ -1,0 +1,4 @@
+scikit_image==0.16.2
+numpy==1.18.1
+pygame==1.9.6
+tensorflow==2.1.0
