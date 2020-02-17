@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "/home/alex/.pyenv/versions/3.7.6/bin/python",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
+}
