@@ -49,7 +49,7 @@ class MyNet(nn.Module):
         self.fc_action = layer_init(nn.Linear(self.feature_dim, self.action_dim), 1e-3)
         self.fc_critic = layer_init(nn.Linear(self.feature_dim, 1), 1e-3)
         self.optimizer = optim.Adam(self.parameters(), lr=learning_rate)
-        self.to('cpu')
+        #self.to('cpu')
 
         #self.params = list(self.phi_body.parameters())
 

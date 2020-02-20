@@ -62,7 +62,7 @@ class Game:
         self.obs_4[..., 0:] = obs
         self.obs_4[..., 1:] = obs
         self.obs_4[..., 2:] = obs
-        self.obs_4[..., 3:] = obs
+        self.obs_4[..., 3:] = obs #(84,84,1) 
         self.rewards = []
 
         self.lives = self.env.unwrapped.ale.lives()
